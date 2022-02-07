@@ -116,9 +116,9 @@ export default function Signup({ email }: Props) {
                 />
               </div>
               <div className="flex space-x-2">
-                <Button loading={isSubmitting} className="justify-center w-7/12">
+                {/* <Button loading={isSubmitting} className="justify-center w-7/12">
                   {t("create_account")}
-                </Button>
+                </Button> */}
                 <Button
                   color="secondary"
                   className="justify-center w-5/12"

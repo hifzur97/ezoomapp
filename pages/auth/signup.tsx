@@ -122,7 +122,7 @@ export default function Signup({ email }: Props) {
                 />
               </div>
               <div className="flex space-x-2">
-                <Button loading={isSubmitting} className="justify-center w-7/12">
+                <Button loading={isSubmitting} className="justify-center w-7/12 login_btn login_btn:hover">
                   {t("create_account")}
                 </Button>
                 <Button
